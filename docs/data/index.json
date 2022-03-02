@@ -3,28 +3,25 @@
         {
             "name": "Kanishka Dilhan",
             "email": "e17065@eng.pdn.ac.lk",
-            "eNumber": "E/yy/xxx"
+            "eNumber": "E/17/065"
         },
         {
             "name": "Ishini Udara",
             "email": "e17312@eng.pdn.ac.lk",
-            "eNumber": "E/yy/xxx"
+            "eNumber": "E/17/312"
         },
         {
             "name": "Nadeesha Diwakara",
             "email": "e17240@eng.pdn.ac.lk",
-            "eNumber": "E/yy/xxx"
+            "eNumber": "E/17/240"
         }
     ],
     "supervisors": [
         {
-            "name": "Dr. Supervisor 1",
-            "email": "email@eng.pdn.ac.lk"
+            "name": "Dr. Asitha Bandaranayake",
+            "email": "asithab@eng.pdn.ac.lk"
         },
-        {
-            "name": "Supervisor 2",
-            "email": "email@eng.pdn.ac.lk"
-        }
+ 
     ],
-    "tags": ["Web", "Embedded Systems"]
+    "tags": ["Web", "Embedded Systems","ML"]
 }
