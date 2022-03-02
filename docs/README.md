@@ -19,9 +19,9 @@ This is a sample image, to show how to add images to your page. To learn more op
 
 
 ## Team
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
+-  E/17/065, Kanishka dilhan, [email](mailto:17065@eng.pdn.ac.lk)
+-  E/17/312, Ishini udara, [email](mailto:17312@eng.pdn.ac.lk)
+-  E/17/240, Nadeesha diwakara, [email](mailto:17240@eng.pdn.ac.lk)
 
 ## Table of Contents
 1. [Introduction](#introduction)
