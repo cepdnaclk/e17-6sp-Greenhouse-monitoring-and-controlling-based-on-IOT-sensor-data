@@ -13,9 +13,8 @@ title:
 
 ---
 
-This is a sample image, to show how to add images to your page. To learn more options, please refer [this](https://projects.ce.pdn.ac.lk/docs/faq/how-to-add-an-image/)
 
-![Sample Image](./images/sample.png)
+![GH Image](./images/GH.jpg)
 
 
 ## Team
@@ -25,14 +24,23 @@ This is a sample image, to show how to add images to your page. To learn more op
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Other Sub Topics](#other-sub-topics)
-3. [Links](#links)
+2. [Solution Architecture](#solution-architecture)
+3. [UML Diagram](#uml-diagram)
+4. [Other Sub Topics](#other-sub-topics)
+5. [Links](#links)
 
 ---
 
 ## Introduction
 
- description of the real world problem and solution, impact
+ In traditional farming, farmer has to visit the farming land regularly to measure the various environmental parameters such as temperature, humidity and light intensity to cultivate the right crops at right time in right soil. Even though this traditional farming system have been used for years, the system is hectic and fail to prove high productivity rate as farmer usually unable to measure all the parameter accurately. In contrast, greenhouse farming is a system where farmer cultivate crops in ecosystem environments where all environmental parameters are adjusted based on crop types. Automation in greenhouse is a method where farmer can monitor and control the greenhouse environment automatically from anywhere in the world any time. Automated greenhouse monitoring and controlling system that incorporate various sensors such as temperature sensor, humidity sensor and light sensor to collect possible environmental parameters of greenhouse. Internet of Things (IoT) is used to store data to a database and process the collected data and finally send the information to the web interface which has been developed for monitoring and controlling of greenhouse by the user.
+
+## Solution Architecture
+
+
+## UML Diagram
+
+![UML image](./images/UML.png)
 
 ## Other Sub Topics
 
