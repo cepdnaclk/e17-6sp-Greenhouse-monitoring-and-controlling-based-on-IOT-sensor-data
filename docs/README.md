@@ -15,7 +15,7 @@ title:
 
 This is a sample image, to show how to add images to your page. To learn more options, please refer [this](https://projects.ce.pdn.ac.lk/docs/faq/how-to-add-an-image/)
 
-![Sample Image](./images/sample.png)
+![GH Image](./images/GH.jpg)
 
 
 ## Team
