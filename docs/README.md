@@ -46,7 +46,7 @@ title: Data Driven Greehouse Monitoring and Controlling
 ## Control and Data Flow
 
 ![ConDataFlow image](./images/ControlDataFlow.png)
-.....
+
 
 ## Links
 
