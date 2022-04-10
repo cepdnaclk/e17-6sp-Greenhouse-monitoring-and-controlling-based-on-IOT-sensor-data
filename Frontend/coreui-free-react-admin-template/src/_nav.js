@@ -40,7 +40,7 @@ const _nav = [
   {
     component: CNavItem,
     name: 'Report',
-    to: '/theme/typography',
+    to: '/reports',
     icon: <CIcon icon={cilNotes} customClassName="nav-icon" />,
   },
   {
