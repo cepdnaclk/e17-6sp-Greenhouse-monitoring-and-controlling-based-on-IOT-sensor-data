@@ -49,32 +49,21 @@ const index = () => {
             <CCard style={{ height: '20rem', width: '20rem', alignItems:'center' }}>
                 <CCardImage orientation="top" src={diseases} style={{ height: '15rem', width: '20rem' }}/>
                   <CCardBody>
-                    <h5>Crop Diseases</h5>
-                    <CButton href="#" color="success" style={{ alignSelf: "left" }}>Summary</CButton>
-                    <CButton href="#">Detailed</CButton>
+                    <h5>Corelations</h5>
+                    <CButton href="#" color="success" size="sm" style={{ alignSelf: "left" }}>Summary</CButton>
+                    <CButton href="#" size="sm" >Detailed</CButton>
                   </CCardBody>
             </CCard>
         </CCol>
 
         <CCol>
             <CCard style={{ height: '20rem', width: '20rem', alignItems:'center' }}>
-                <CCardImage orientation="top" src={harvest} style={{ height: '15rem', width: '20rem' }}/>
-                  <CCardBody>
-                    <h5>Crop Growth</h5>
-                    <CButton href="#" color="success">Summary</CButton>
-                    <CButton href="#">Detailed</CButton>
-                  </CCardBody>
-            </CCard>        
-        </CCol>
-
-        <CCol>
-            <CCard style={{ height: '20rem', width: '20rem', alignItems:'center' }}>
                 <CCardImage orientation="top" src={growth} style={{ height: '15rem', width: '20rem' }}/>
-                  <CCardBody>
-                    <h5>Crop Growth</h5>
-                    <CButton href="#" color="success">Summary</CButton>
-                    <CButton href="#">Detailed</CButton>
-                  </CCardBody>
+                <CCardBody>
+                  <h5>Predictions</h5>
+                  <CButton href="#" color="success" size="sm">Summary</CButton>
+                  <CButton href="#" size="sm">Detailed</CButton>
+                </CCardBody>
             </CCard>        
         </CCol>
 
@@ -86,7 +75,7 @@ const index = () => {
                 <CTableBody>
                     <CTableRow>
                       <CTableDataCell>
-                        <h5>Crop Diseases Full Report</h5>
+                        <h5>Corelation between temperature and humidity</h5>
                       </CTableDataCell>
 
                       <CTableDataCell className="text-center">
@@ -96,7 +85,7 @@ const index = () => {
 
                     <CTableRow>
                       <CTableDataCell>
-                        <h5>Crop Harvest Full Report</h5>
+                        <h5>Greenhouse control based on sensor data</h5>
                       </CTableDataCell>
 
                       <CTableDataCell className="text-center">
@@ -107,7 +96,7 @@ const index = () => {
 
                     <CTableRow>
                       <CTableDataCell>
-                        <h5>Crop Growth Full Report</h5>
+                        <h5>Greenhouse control based on sensor data</h5>
                       </CTableDataCell>
 
                       <CTableDataCell className="text-center">
