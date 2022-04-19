@@ -52,6 +52,7 @@ const Widgets = React.lazy(() => import('./views/widgets/Widgets'))
 
 //UIs
 const reports = React.lazy(() => import('./views/reports'))
+const control = React.lazy(() => import('./views/control'))
 
 const routes = [
   { path: '/', exact: true, name: 'Home' },
@@ -99,6 +100,7 @@ const routes = [
   { path: '/notifications/toasts', name: 'Toasts', element: Toasts },
   { path: '/widgets', name: 'Widgets', element: Widgets },
   { path: '/reports', name: 'Reports', element: reports },
+  { path: '/control', name: 'Control', element: control },
 ]
 
 export default routes
