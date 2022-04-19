@@ -34,7 +34,7 @@ const _nav = [
   {
     component: CNavItem,
     name: 'Control',
-    to: '/theme/colors',
+    to: '/control',
     icon: <CIcon icon={cilCalculator} customClassName="nav-icon" />,
   },
   {
