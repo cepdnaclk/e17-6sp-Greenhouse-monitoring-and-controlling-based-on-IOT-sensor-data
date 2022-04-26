@@ -1,0 +1,289 @@
+<head>
+	<!-- Load plotly.js into the DOM -->
+	<script src='https://cdn.plot.ly/plotly-2.9.0.min.js'></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div ><h1>Select Date</h1>
+    <input type="date" id="start" name="trip-start"
+       value="2018-07-22"
+       min="2018-01-01" max="2018-12-31"></div>
+       
+
+
+
+    <!-- <div ><h1>Date: 2021/02/02</h1></div>
+    <div ><h2>6am-12pm</h2> </div>
+    <div></div> -->
+
+
+  <!-- <div ><h1>Date: 2021/02/02</h1></div>
+  <div ><h2>12pm-6pm</h2> </div> -->
+   
+
+    <!-- <div ><h1>Date: 2021/02/02</h1></div>
+    <div ><h2>6pm-12am</h2> </div> -->
+
+<!-- 
+  <div ><h1>Date: 2021/02/02</h1></div>
+  <div ><h2>12am-6am</h2> </div> -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm" >
+        <div ><h2></h2> </div>
+        <div ></div>
+      </div>
+      <div class="col-sm">
+        <div ><h2><u>2020 / 04/ 15</u></h2> </div>
+        <div ></div>
+      </div>
+      <div class="col-sm">
+        <div ><h2></h2> </div>
+        <div ></div>
+      </div>
+      
+
+    </div>
+  </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm" >
+          <div ><h2>00am-01am</h2> </div>
+          <div id='myDiv0'><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+        <div class="col-sm">
+          <div ><h2>01am-02am</h2> </div>
+          <div id='myDiv1'><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+        <div class="col-sm">
+          <div ><h2>02am-03am</h2> </div>
+          <div id='myDiv2'><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+        
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm" >
+          <div ><h2>03am-04am</h2> </div>
+          <div id='myDiv3'><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+        <div class="col-sm">
+          <div ><h2>04am-05am</h2> </div>
+          <div id='myDiv4'><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+        <div class="col-sm">
+          <div ><h2>05am-06am</h2> </div>
+          <div id='myDiv5'><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm" >
+          <div ><h2>06am-07am</h2> </div>
+          <div id='myDiv6'><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+        <div class="col-sm">
+          <div ><h2>07am-08am</h2> </div>
+          <div id='myDiv7'><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+        <div class="col-sm">
+          <div ><h2>08am-09am</h2> </div>
+          <div id='myDiv8'><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+        
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm" >
+          <div ><h2>09am-10am</h2> </div>
+          <div id='myDiv9'><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+        <div class="col-sm">
+          <div ><h2>10am-11am</h2> </div>
+          <div id='myDiv10'><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+        <div class="col-sm">
+          <div ><h2>11am-12pm</h2> </div>
+          <div id='myDiv11'><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm" >
+          <div ><h2>12pm-13pm</h2> </div>
+          <div id='myDiv12'><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+        <div class="col-sm">
+          <div ><h2>13pm-14pm</h2> </div>
+          <div id='myDiv13'><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+        <div class="col-sm">
+          <div ><h2>14pm-15pm</h2> </div>
+          <div id='myDiv14'><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+        
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm" >
+          <div ><h2>15pm-16pm</h2> </div>
+          <div id='myDiv15'><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+        <div class="col-sm">
+          <div ><h2>16pm-17pm</h2> </div>
+          <div id='myDiv16'><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+        <div class="col-sm">
+          <div ><h2>17pm-18pm</h2> </div>
+          <div id='myDiv17'><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm" >
+          <div ><h2>18pm-19pm</h2> </div>
+          <div id='myDiv18'><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+        <div class="col-sm">
+          <div ><h2>19pm-20pm</h2> </div>
+          <div id='myDiv19'><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+        <div class="col-sm">
+          <div ><h2>20pm-21pm</h2> </div>
+          <div id='myDiv20'><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+        
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm" >
+          <div ><h2>21pm-22pm</h2> </div>
+          <div id='myDiv21'><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+        <div class="col-sm">
+          <div ><h2>22pm-23pm</h2> </div>
+          <div id='myDiv22'><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+        <div class="col-sm">
+          <div ><h2>23pm-00pm</h2> </div>
+          <div id='myDiv23'><!-- Plotly chart will be drawn inside this DIV --></div>
+        </div>
+
+      </div>
+    </div>
+</body>
+
+<script>
+z1 = [
+    [8.83,8.89,8.81,8.87,8.9,8.87],
+    [8.89,8.94,8.85,8.94,8.96,8.92],
+    [8.84,8.9,8.82,8.92,8.93,8.91],
+    [8.79,8.85,8.79,8.9,8.94,8.92],
+    [8.79,8.88,8.81,8.9,8.95,8.92],
+    [8.8,8.82,8.78,8.91,8.94,8.92],
+    [8.75,8.78,8.77,8.91,8.95,8.92],
+    [8.8,8.8,8.77,8.91,8.95,8.94],
+    [8.74,8.81,8.76,8.93,8.98,8.99],
+    [8.89,8.99,8.92,9.1,9.13,9.11],
+    [8.97,8.97,8.91,9.09,9.11,9.11],
+    [9.04,9.08,9.05,9.25,9.28,9.27],
+    [9,9.01,9,9.2,9.23,9.2],
+    [8.99,8.99,8.98,9.18,9.2,9.19],
+    [8.93,8.97,8.97,9.18,9.2,9.18]
+];
+
+
+z2 = [];
+for (var i=0;i<z1.length;i++ ) { 
+  z2_row = [];
+    for(var j=0;j<z1[i].length;j++) { 
+      z2_row.push(z1[i][j]+1);
+    }
+    z2.push(z2_row);
+}
+
+z3 = []
+for (var i=0;i<z1.length;i++ ) { 
+  z3_row = [];
+    for(var j=0;j<z1[i].length;j++) { 
+      z3_row.push(z1[i][j]-1);
+    }
+    z3.push(z3_row);
+}
+var data_z1 = {z: z1, type: 'surface'};
+var data_z2 = {z: z2, showscale: false, opacity:0.9, type: 'surface'};
+var data_z3 = {z: z3, showscale: false, opacity:0.9, type: 'surface'};
+
+
+
+Plotly.newPlot('myDiv0', [data_z1,data_z2,data_z3],layout);
+Plotly.newPlot('myDiv1', [data_z1,data_z2,data_z3],layout);
+Plotly.newPlot('myDiv2', [data_z1,data_z2,data_z3],layout);
+Plotly.newPlot('myDiv3', [data_z1,data_z2,data_z3],layout);
+
+Plotly.newPlot('myDiv4', [data_z1,data_z2,data_z3],layout);
+Plotly.newPlot('myDiv5', [data_z1,data_z2,data_z3],layout);
+Plotly.newPlot('myDiv6', [data_z1,data_z2,data_z3],layout);
+
+Plotly.newPlot('myDiv7', [data_z1,data_z2,data_z3],layout);
+Plotly.newPlot('myDiv8', [data_z1,data_z2,data_z3],layout);
+Plotly.newPlot('myDiv9', [data_z1,data_z2,data_z3],layout);
+Plotly.newPlot('myDiv10', [data_z1,data_z2,data_z3],layout);
+
+Plotly.newPlot('myDiv11', [data_z1,data_z2,data_z3],layout);
+Plotly.newPlot('myDiv12', [data_z1,data_z2,data_z3],layout);
+Plotly.newPlot('myDiv13', [data_z1,data_z2,data_z3],layout);
+
+Plotly.newPlot('myDiv14', [data_z1,data_z2,data_z3],layout);
+Plotly.newPlot('myDiv15', [data_z1,data_z2,data_z3],layout);
+Plotly.newPlot('myDiv16', [data_z1,data_z2,data_z3],layout);
+Plotly.newPlot('myDiv17', [data_z1,data_z2,data_z3],layout);
+
+Plotly.newPlot('myDiv18', [data_z1,data_z2,data_z3],layout);
+Plotly.newPlot('myDiv19', [data_z1,data_z2,data_z3],layout);
+Plotly.newPlot('myDiv20', [data_z1,data_z2,data_z3],layout);
+
+Plotly.newPlot('myDiv21', [data_z1,data_z2,data_z3],layout);
+Plotly.newPlot('myDiv22', [data_z1,data_z2,data_z3],layout);
+Plotly.newPlot('myDiv23', [data_z1,data_z2,data_z3],layout);
+
+var layout = {
+  title: 'Mt Bruno Elevation With Projected Contours',
+  scene: {camera: {eye: {x: 1.87, y: 0.88, z: -0.64}}},
+  autosize: false,
+  width: 100,
+  height: 10,
+  margin: {
+    l: 65,
+    r: 50,
+    b: 65,
+    t: 90,
+  }
+};
+
+
+</script>
