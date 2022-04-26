@@ -1,6 +1,4 @@
 import React, { lazy } from 'react'
-import Popup from './Popup';
-import { useState } from 'react';
 
 import {
   CAvatar,
@@ -31,7 +29,6 @@ import {
   CCarouselItem,
   CFormSelect,
   CImage,
-  CFormInput,
 } from '@coreui/react'
 
 import curtain from 'src/assets/images/control/curtain.png'
@@ -47,8 +44,6 @@ const index = () => {
     const random = (min, max) => {
       return Math.floor(Math.random() * (max - min + 1) + min)
     }
-
-    const [buttonPopup, setButtonPopup] = useState(false);
 
 
     return (
@@ -109,8 +104,7 @@ const index = () => {
                             
                             </CCol>
                             <CCol>
-                                <button onClick={() => setButtonPopup(true)}>Edit</button>
-
+                                <CButton href="#" size="sm">Edit</CButton>
                             </CCol>
 
                         </CRow>
@@ -286,16 +280,6 @@ const index = () => {
 
  
         </CRow>
-        <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
-            <CRow><h4>Teamperature</h4></CRow>
-            <br></br>
-            <CRow className="justify-content-start"><CCol xs={2}><h7>Edit Ideal</h7></CCol>
-            <CCol><CFormInput type="text" id="inputIdealTemp"/></CCol>
-            <CCol><CButton type="submit" className="mb-3">
-                    Confirm
-                </CButton>
-            </CCol></CRow>
-        </Popup>
 
         </>
       )
