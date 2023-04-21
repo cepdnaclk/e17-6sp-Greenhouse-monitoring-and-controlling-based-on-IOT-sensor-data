@@ -21,13 +21,11 @@
             "name": "Dr. Asitha Bandaranayake",
             "email": "asithab@eng.pdn.ac.lk"
         },
-        
-     "supervisors": [
         {
             "name": "Nuwan Jaliyagoda",
             "email": "nuwanjaliyagoda@eng.pdn.ac.lk"
         },
  
     ],
-    "tags": ["Web", "Embedded Systems","ML"]
+    "tags": ["Web", "Embedded Systems","ML", "Smart Agriculture"]
 }
